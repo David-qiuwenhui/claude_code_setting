@@ -30,11 +30,11 @@
 
 ### 目录说明
 
-| 目录 | 说明 |
-|------|------|
-| `docs/` | 存放使用过程中的文档记录、问题复盘、学习笔记等 |
-| `skills_repo/` | 自定义的 Claude Code Skills 脚本，用于扩展 Claude Code 的能力 |
-| `plugins_repo/` | MCP (Model Context Protocol) 插件配置和代码 |
+| 目录            | 说明                                                          |
+| --------------- | ------------------------------------------------------------- |
+| `docs/`         | 存放使用过程中的文档记录、问题复盘、学习笔记等                |
+| `skills_repo/`  | 自定义的 Claude Code Skills 脚本，用于扩展 Claude Code 的能力 |
+| `plugins_repo/` | MCP (Model Context Protocol) 插件配置和代码                   |
 
 ---
 
@@ -48,12 +48,14 @@
 ### 配置步骤
 
 1. **克隆仓库**
+
    ```bash
    git clone https://github.com/qiuwenhui/claude_code_setting.git
    cd claude_code_setting
    ```
 
 2. **安装 Skills**
+
    ```bash
    # 将 skills_repo 中的脚本复制到 Claude Code skills 目录
    cp -r skills_repo/* ~/.claude/skills/
