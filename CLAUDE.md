@@ -35,13 +35,15 @@ npx skills update            # 更新所有技能
 
 ## 文档记录
 
-### docs/statusline-configuration-summary.md
+### tools/statusline/
 
-记录了 Powerlevel10k 风格的状态栏配置，包括：
-- 状态栏脚本位置：`~/.claude/statusline-command.sh`
-- 配置文件位置：`~/.claude/settings.json`
-- 依赖：`jq` (通过 Homebrew 安装)
-- Git 状态指示器：`*` (未提交更改)、`⇡N` (领先 N 个提交)、`⇣N` (落后 N 个提交)
+Powerlevel10k 风格状态栏的便携安装包，支持一键安装到其他用户的 Claude Code 环境。
+
+- **状态栏脚本**: `tools/statusline/statusline-command.sh`（安装后复制到 `~/.claude/`）
+- **配置文件**: `~/.claude/settings.json` 中的 `statusLine` 键
+- **依赖**: `jq`（安装脚本自动检测并安装）
+- **详细文档**: 见 `tools/statusline/README.md`
+- **历史配置文档**: 见 `docs/statusline-configuration-summary.md`
 
 ## 常用 Claude Code 命令
 

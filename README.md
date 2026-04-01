@@ -24,6 +24,8 @@
 ├── docs/              # 使用文档和复盘记录
 ├── skills_repo/       # 自定义 Skills 脚本
 ├── plugins_repo/      # MCP Plugins 插件
+├── tools/             # 可复用的工具和配置
+│   └── statusline/    # Powerlevel10k 风格状态栏（一键安装）
 ├── .gitignore         # Git 忽略配置
 └── README.md          # 本文件
 ```
@@ -35,6 +37,7 @@
 | `docs/`         | 存放使用过程中的文档记录、问题复盘、学习笔记等                |
 | `skills_repo/`  | 自定义的 Claude Code Skills 脚本，用于扩展 Claude Code 的能力 |
 | `plugins_repo/` | MCP (Model Context Protocol) 插件配置和代码                   |
+| `tools/`        | 可复用的工具和配置，如 Powerlevel10k 风格状态栏              |
 
 ---
 
